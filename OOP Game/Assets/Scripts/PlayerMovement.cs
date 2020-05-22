@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         change = Vector3.zero;
         // Maybe decide later to change to GetAxis (will add fluent accelaration)
@@ -43,6 +43,6 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
-        myRigidbody.MovePosition(transform.position + change.normalized * speed * Time.deltaTime);
+        myRigidbody.MovePosition(transform.position + change.normalized * speed*Time.deltaTime);
     }
 }
