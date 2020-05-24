@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         change = Vector3.zero;
         // Maybe decide later to change to GetAxis (will add fluent accelaration)
