@@ -33,11 +33,11 @@ public class PlayerMovement : MonoBehaviour
         // Maybe decide later to change to GetAxis (will add fluent accelaration)
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("Attack") && currentState!=PlayerState.attack)
+        if (Input.GetButtonDown("Attack") && currentState != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
         }
-        else if(currentState==PlayerState.walk)
+        else if (currentState == PlayerState.walk)
         {
             UpdateAnimationAndMove();
         }
@@ -71,6 +71,6 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         change.Normalize();
-        myRigidbody.MovePosition(transform.position + change.normalized * speed * Time.deltaTime);
+        myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
     }
 }
