@@ -27,7 +27,8 @@ public class RoomMove : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        Debug.Log("check");
+        if (other.CompareTag("Player"))
         {
             cam.minPosition.x += cameraMinChange.x;
             cam.minPosition.y += cameraMinChange.y;

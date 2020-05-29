@@ -29543,6 +29543,21 @@ PrefabInstance:
       propertyPath: playerChange.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939461, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 315267540}
+    - target: {fileID: 2148245534655939461, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: placeText
+      value: 
+      objectReference: {fileID: 315267543}
+    - target: {fileID: 2148245534655939461, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: placeName
+      value: Lake
+      objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
       propertyPath: m_Name
