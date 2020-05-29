@@ -28621,7 +28621,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932896134}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -28652,8 +28652,9 @@ MonoBehaviour:
   MoveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1
+  attackRadius: 2
   homePosition: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &2105471685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2925242257400377151, guid: c806e6a6c6a12b54abb454a4ffd3b26e,
