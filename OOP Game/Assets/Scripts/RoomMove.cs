@@ -23,12 +23,11 @@ public class RoomMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("check");
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             cam.minPosition.x += cameraMinChange.x;
             cam.minPosition.y += cameraMinChange.y;
