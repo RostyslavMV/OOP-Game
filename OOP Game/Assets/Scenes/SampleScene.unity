@@ -81382,6 +81382,39 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 1.3690872
       objectReference: {fileID: 0}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: playerPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: fadeWait
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 8846923287235507988, guid: 41300d69011bff34f95d5cd173b1dc48,
+        type: 3}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 4453478374181335441, guid: 41b3b99f228376343b5ef4c57713ccda,
+        type: 3}
+    - target: {fileID: 1550638635987826240, guid: e14b764688c841649a971b392ae5df2d,
+        type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 192d106c32ab0eb40b73efe20904112d,
+        type: 2}
     - target: {fileID: 4763446817161743247, guid: e14b764688c841649a971b392ae5df2d,
         type: 3}
       propertyPath: m_LocalPosition.x
