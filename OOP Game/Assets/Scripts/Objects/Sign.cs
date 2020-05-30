@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Sign : MonoBehaviour
+public class Sign : Interactable
 {
+    
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
-    public bool playerInRange;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,21 +33,13 @@ public class Sign : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected override void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !collision.isTrigger)
         {
-            playerInRange = true;
-
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
+            Context.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }
-    }
+    }   
 }
