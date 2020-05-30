@@ -80273,7 +80273,7 @@ Transform:
   - {fileID: 190427301}
   - {fileID: 531776502}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &660846692
 PrefabInstance:
@@ -81460,7 +81460,7 @@ Transform:
   - {fileID: 1889088037}
   - {fileID: 1377495013}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1258403853
 PrefabInstance:
@@ -82351,6 +82351,7 @@ MonoBehaviour:
   enemyName: Patrol Log
   baseAttack: 1
   moveSpeed: 2
+  deathEffect: {fileID: 0}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 3
@@ -83235,7 +83236,7 @@ PrefabInstance:
     - target: {fileID: 2925242257400377148, guid: c806e6a6c6a12b54abb454a4ffd3b26e,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2925242257400377149, guid: c806e6a6c6a12b54abb454a4ffd3b26e,
         type: 3}
@@ -83479,7 +83480,7 @@ PrefabInstance:
     - target: {fileID: 3180962070529448916, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3180962070529448916, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}

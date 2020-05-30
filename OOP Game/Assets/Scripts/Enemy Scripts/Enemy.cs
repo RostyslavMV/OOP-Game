@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
-
+    public GameObject deathEffect;
     private void Awake()
     {
         health = maxHealth.initialValue;
@@ -29,7 +29,17 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            DeatEffect();
             gameObject.SetActive(false);
+        }
+    }
+
+    private void DeatEffect()
+    {
+        if (deathEffect != null)
+        {
+            GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 1f);
         }
     }
     public void Knock(Rigidbody2D myRigidBody, float knockTime, float damage)
