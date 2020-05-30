@@ -73,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void RaiseItem()
     {
-        Debug.Log("check");
         if (playerInventory.currentItem != null)
         {
            if(currentState != PlayerState.interact)

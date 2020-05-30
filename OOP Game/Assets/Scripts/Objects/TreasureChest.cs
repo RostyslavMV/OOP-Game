@@ -44,7 +44,6 @@ public class TreasureChest : Interactable
         playerInventory.currentItem = contents;
         //Raise the signal to animate 
         raiseItem.Raise();
-        Debug.Log("check");
         //set chest to opened
         isOpen = true;
         //raise the context clue
@@ -57,6 +56,7 @@ public class TreasureChest : Interactable
         dialogBox.SetActive(false);
         //raise the signal to the player to stop animating
         raiseItem.Raise();
+        playerInRange = false;
 
     }
     protected override void OnTriggerEnter2D(Collider2D collision)

@@ -79423,8 +79423,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -112359541
-  m_SortingLayer: 3
+  m_SortingLayerID: 599271407
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3487095783347953447, guid: da75d826abd0ebf40a67e555f2e20ccf,
     type: 3}
@@ -79746,8 +79746,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -112359541
-  m_SortingLayer: 3
+  m_SortingLayerID: 599271407
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3487095783347953447, guid: da75d826abd0ebf40a67e555f2e20ccf,
     type: 3}
@@ -79888,8 +79888,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -112359541
-  m_SortingLayer: 3
+  m_SortingLayerID: 599271407
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3487095783347953447, guid: da75d826abd0ebf40a67e555f2e20ccf,
     type: 3}
@@ -81044,8 +81044,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -112359541
-  m_SortingLayer: 3
+  m_SortingLayerID: 599271407
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3487095783347953447, guid: da75d826abd0ebf40a67e555f2e20ccf,
     type: 3}
@@ -81120,6 +81120,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   contextClue: {fileID: 780658065}
   contextActive: 0
+--- !u!114 &1543449653 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3180962070529448919, guid: 6931e19dcb50bc849a5fe0c831bd4407,
+    type: 3}
+  m_PrefabInstance: {fileID: 3180962069939513408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543449648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bb0a934a8d37d49b32d93d5fb4d30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616916007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 940557878791326747, guid: a3618a8263e5dd4499ca98b247e574c3,
@@ -81333,7 +81345,7 @@ GameObject:
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2021610781
 Transform:
   m_ObjectHideFlags: 0
@@ -81384,8 +81396,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -112359541
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -81413,7 +81425,18 @@ MonoBehaviour:
   signal: {fileID: 11400000, guid: 2a800678b4df8724881f3eb1ba18bba3, type: 2}
   signalEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1543449653}
+        m_MethodName: RaiseItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2047900107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81611,6 +81634,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Context: {fileID: 11400000, guid: 3bc3359eafe2ff642aeb538b21d6c4b9, type: 2}
   playerInRange: 0
+  contents: {fileID: 11400000, guid: ba1243f1216ee3f448fd91f299d19aed, type: 2}
+  playerInventory: {fileID: 11400000, guid: 42c7d3785178ebb46914cb2579ecbfc1, type: 2}
+  isOpen: 0
+  raiseItem: {fileID: 11400000, guid: 2a800678b4df8724881f3eb1ba18bba3, type: 2}
+  dialogBox: {fileID: 1162020541}
+  dialogText: {fileID: 113815668}
 --- !u!61 &2076978222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -82284,6 +82313,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 192d106c32ab0eb40b73efe20904112d,
         type: 2}
+    - target: {fileID: 3180962070529448919, guid: 6931e19dcb50bc849a5fe0c831bd4407,
+        type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: 42c7d3785178ebb46914cb2579ecbfc1,
+        type: 2}
+    - target: {fileID: 3180962070529448919, guid: 6931e19dcb50bc849a5fe0c831bd4407,
+        type: 3}
+      propertyPath: receivedItemSprite
+      value: 
+      objectReference: {fileID: 2021610782}
     - target: {fileID: 3180962070529448921, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}
       propertyPath: m_Offset.y
