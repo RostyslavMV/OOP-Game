@@ -81333,7 +81333,7 @@ PrefabInstance:
     - target: {fileID: 372813994701939323, guid: e14b764688c841649a971b392ae5df2d,
         type: 3}
       propertyPath: m_Name
-      value: Scene Transition (1)
+      value: Dungeon Transition
       objectReference: {fileID: 0}
     - target: {fileID: 1309276358629052653, guid: e14b764688c841649a971b392ae5df2d,
         type: 3}
@@ -82800,6 +82800,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Context: {fileID: 11400000, guid: 3bc3359eafe2ff642aeb538b21d6c4b9, type: 2}
   playerInRange: 0
+  contents: {fileID: 0}
+  playerInventory: {fileID: 0}
+  isOpen: 0
+  raiseItem: {fileID: 0}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
 --- !u!61 &2076978222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -83450,7 +83456,7 @@ PrefabInstance:
     - target: {fileID: 3180962070529448916, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3180962070529448916, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}
@@ -83535,7 +83541,7 @@ PrefabInstance:
     - target: {fileID: 6140313725937134351, guid: b0040de833032ac4bbda9998839f50f1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6140313725937134351, guid: b0040de833032ac4bbda9998839f50f1,
         type: 3}
