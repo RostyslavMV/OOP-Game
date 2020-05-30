@@ -28,7 +28,8 @@ public class Heart : Powerup
                 playerHealth.RuntimeValue = heartContainers.RuntimeValue * 2;
             }
             powerupSignal.Raise();
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
+        
     }
 }
