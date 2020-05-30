@@ -172,6 +172,9 @@ MonoBehaviour:
   enemyName: 
   baseAttack: 0
   moveSpeed: 1.5
+  deathEffect: {fileID: 1371767669527613678, guid: 15adb1ffcd0471b4f826b2261884494d,
+    type: 3}
+  myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 1.2
