@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573c78df653efdf44a461d06674b36b1, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 11400000, guid: ba1243f1216ee3f448fd91f299d19aed, type: 2}
+  currentItem: {fileID: 0}
   items: []
-  numberOfkeys: 6
+  numberOfkeys: 0
