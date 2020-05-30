@@ -81333,7 +81333,7 @@ PrefabInstance:
     - target: {fileID: 372813994701939323, guid: e14b764688c841649a971b392ae5df2d,
         type: 3}
       propertyPath: m_Name
-      value: Scene Transition (1)
+      value: Dungeon Transition
       objectReference: {fileID: 0}
     - target: {fileID: 1309276358629052653, guid: e14b764688c841649a971b392ae5df2d,
         type: 3}
