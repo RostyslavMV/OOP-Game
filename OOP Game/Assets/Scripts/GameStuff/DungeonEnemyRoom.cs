@@ -5,8 +5,6 @@ using UnityEngine;
 public class DungeonEnemyRoom : DungeonRoom
 {
     public Door[] doors;
-    public SignalListener enemyUpdate;
-
     public void CheckEnemies()
     {
         for (int i = 0; i < enemies.Length; i++)
@@ -31,8 +29,8 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], true);
             }
+            CloseDoors();
         }
-        CloseDoors();
     }
     public override void OnTriggerExit2D(Collider2D other)
     {
