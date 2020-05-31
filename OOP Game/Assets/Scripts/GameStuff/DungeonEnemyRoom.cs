@@ -5,13 +5,11 @@ using UnityEngine;
 public class DungeonEnemyRoom : DungeonRoom
 {
     public Door[] doors;
-    public SignalListener enemyUpdate;
 
     public void CheckEnemies()
     {
         for (int i = 0; i < enemies.Length; i++)
         {
-            if (enemies[i].gameObject.activeInHierarchy)
             if (enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
             {
                 return;
@@ -32,10 +30,12 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], true);
             }
+<<<<<<< HEAD
             virtualCamera.SetActive(true);
+=======
             CloseDoors();
+>>>>>>> d94f5a6b1302dcca4766515b3bccfcd054272f59
         }
-        CloseDoors();
     }
     public override void OnTriggerExit2D(Collider2D other)
     {
