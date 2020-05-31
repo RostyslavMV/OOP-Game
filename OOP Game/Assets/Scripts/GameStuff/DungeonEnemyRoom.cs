@@ -12,6 +12,7 @@ public class DungeonEnemyRoom : DungeonRoom
         for (int i = 0; i < enemies.Length; i++)
         {
             if (enemies[i].gameObject.activeInHierarchy)
+            if (enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
             {
                 return;
             }
@@ -32,6 +33,7 @@ public class DungeonEnemyRoom : DungeonRoom
                 ChangeActivation(pots[i], true);
             }
             virtualCamera.SetActive(true);
+            CloseDoors();
         }
         CloseDoors();
     }
