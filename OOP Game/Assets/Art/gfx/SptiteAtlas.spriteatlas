@@ -191,11 +191,11 @@ SpriteAtlas:
   - {fileID: -2612631271021064264, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 7495320969501026803, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 1460043806165005221, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
-  - {fileID: 5849325189442884660, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 4545352612990403588, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 8753186556605219898, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 4698315425400886581, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 1423833454339779461, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
+  - {fileID: 5849325189442884660, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 741922582067912797, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: 2197855871317943228, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
   - {fileID: -5354328968874661603, guid: da75d826abd0ebf40a67e555f2e20ccf, type: 3}
@@ -1911,11 +1911,11 @@ SpriteAtlas:
   - objects_47
   - objects_27
   - objects_37
-  - objects_24
   - objects_36
   - objects_25
   - objects_31
   - objects_30
+  - Rock1
   - objects_33
   - objects_32
   - objects_112

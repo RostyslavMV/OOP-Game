@@ -79,7 +79,7 @@ public class Log : Enemy
         }
     }
 
-    private void ChangeState(EnemyState newState)
+    protected void ChangeState(EnemyState newState)
     {
         if (currentState != newState)
         {
