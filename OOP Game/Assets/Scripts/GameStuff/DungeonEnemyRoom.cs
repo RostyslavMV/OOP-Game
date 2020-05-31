@@ -30,11 +30,8 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], true);
             }
-<<<<<<< HEAD
             virtualCamera.SetActive(true);
-=======
             CloseDoors();
->>>>>>> d94f5a6b1302dcca4766515b3bccfcd054272f59
         }
     }
     public override void OnTriggerExit2D(Collider2D other)
