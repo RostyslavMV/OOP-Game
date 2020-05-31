@@ -6,11 +6,6 @@ public class DungeonEnemyRoom : DungeonRoom
 {
     public Door[] doors;
     public SignalListener enemyUpdate;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     public void CheckEnemies()
     {
@@ -37,6 +32,7 @@ public class DungeonEnemyRoom : DungeonRoom
                 ChangeActivation(pots[i], true);
             }
         }
+        CloseDoors();
     }
     public override void OnTriggerExit2D(Collider2D other)
     {
