@@ -5,6 +5,7 @@ using UnityEngine;
 public class DungeonEnemyRoom : DungeonRoom
 {
     public Door[] doors;
+    public SignalListener enemyUpdate;
 
     public void CheckEnemies()
     {
@@ -30,9 +31,8 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], true);
             }
-            virtualCamera.SetActive(true);
-            CloseDoors();
         }
+        CloseDoors();
     }
     public override void OnTriggerExit2D(Collider2D other)
     {
@@ -46,7 +46,6 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], false);
             }
-            virtualCamera.SetActive(false);
         }
     }
 

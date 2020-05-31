@@ -20,7 +20,7 @@ public class Door : Interactable
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (playerInRange && thisDoorType == DoorType.key)
             {
@@ -43,8 +43,6 @@ public class Door : Interactable
 
     public void Close()
     {
-        doorSprite.enabled = true;
-        open = false;
-        physicsCollider.enabled = true;
+
     }
 }

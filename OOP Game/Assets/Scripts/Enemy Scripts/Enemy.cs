@@ -24,8 +24,6 @@ public class Enemy : MonoBehaviour
     [Header("Death Efects")]
     public GameObject deathEffect;
     private float deathEffectDelay = 1f;
-    [Header("Death Signals")]
-    public Signal roomSignal;
 
     private void Awake()
     {
@@ -42,13 +40,12 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            DeathEffect();
-            roomSignal.Raise();
+            DeatEffect();
             gameObject.SetActive(false);
         }
     }
 
-    private void DeathEffect()
+    private void DeatEffect()
     {
         if (deathEffect != null)
         {
