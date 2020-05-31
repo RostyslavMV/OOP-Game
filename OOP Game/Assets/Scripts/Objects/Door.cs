@@ -20,7 +20,7 @@ public class Door : Interactable
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (playerInRange && thisDoorType == DoorType.key)
             {
