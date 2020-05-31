@@ -223,6 +223,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 424104606}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &242913644 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 940557878791326750, guid: a3618a8263e5dd4499ca98b247e574c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1602673859}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0e318c76a7dbb4eafc2237d2134821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &273327515 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6140313727294079894, guid: b0040de833032ac4bbda9998839f50f1,
@@ -9365,6 +9377,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1355653952 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 940557878791326750, guid: a3618a8263e5dd4499ca98b247e574c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2146647073}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0e318c76a7dbb4eafc2237d2134821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1533678229
 GameObject:
   m_ObjectHideFlags: 0
@@ -9670,6 +9694,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1721560137 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 940557878791326750, guid: a3618a8263e5dd4499ca98b247e574c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1621993732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0e318c76a7dbb4eafc2237d2134821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1732055390
@@ -23375,7 +23411,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915b340f7fa1d2c4bb83dee732721b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: []
+  enemies:
+  - {fileID: 242913644}
+  - {fileID: 1721560137}
+  - {fileID: 1355653952}
   pots: []
   doors:
   - {fileID: 1298891372}
