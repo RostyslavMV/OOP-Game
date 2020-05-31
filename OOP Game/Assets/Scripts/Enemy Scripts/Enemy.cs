@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
-    public Vector2 homePos;
+    public Vector2 homePosition;
     [Header("Death Efects")]
     public GameObject deathEffect;
     private float deathEffectDelay = 1f;
@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
 
     private void OnEnable()
     {
-        transform.position = homePos;
+        transform.position = homePosition;
     }
 
     private void TakeDamage(float damage)
