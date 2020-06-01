@@ -94,10 +94,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void MakeArrow()
     {
+        Vector2 temp = new Vector2(animator.GetFloat("MoveX"), animator.GetFloat("MoveY"));
         Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
-        arrow.Setup(Vector2.left, Vector3.zero);
+        arrow.Setup(temp, ChooseArrowDirection());
     }
-
+    Vector3 ChooseArrowDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("MoveY"), animator.GetFloat("MoveX"))*Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
+    }
     public void RaiseItem()
     {
         if (playerInventory.currentItem != null)

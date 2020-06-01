@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7963544437799800005}
   - component: {fileID: 432871446927982849}
   - component: {fileID: 4870658645903466803}
+  - component: {fileID: 4536060842783425083}
+  - component: {fileID: 8961462289718661840}
   m_Layer: 11
   m_Name: arrow
   m_TagString: Untagged
@@ -130,3 +132,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.15911531}
   m_EdgeRadius: 0
+--- !u!114 &4536060842783425083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758159899677170246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396d64688f03bdc4b8681acd798e88b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  myRigidBody: {fileID: 432871446927982849}
+--- !u!114 &8961462289718661840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758159899677170246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9868c377651e5274c932e19ab5a5aac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.3
+  damage: 0.5
