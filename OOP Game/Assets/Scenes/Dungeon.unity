@@ -8827,7 +8827,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460298676}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a875d64c1c679447a82b4e7aa98cbb4, type: 3}
   m_Name: 
@@ -10540,7 +10540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1795520848
 Transform:
   m_ObjectHideFlags: 0
@@ -24318,7 +24318,7 @@ MonoBehaviour:
   Context: {fileID: 11400000, guid: 3bc3359eafe2ff642aeb538b21d6c4b9, type: 2}
   playerInRange: 0
   thisDoorType: 1
-  open: 0
+  open: 1
   playerInventory: {fileID: 11400000, guid: 42c7d3785178ebb46914cb2579ecbfc1, type: 2}
   doorSprite: {fileID: 9640919419537004}
   physicsCollider: {fileID: 9640919419537003}
