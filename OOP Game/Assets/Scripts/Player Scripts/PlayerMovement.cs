@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public Signal playerHit;
+    public Signal reduceMagic;
     public GameObject projectile;
     // Start is called before the first frame update
     void Start()
@@ -94,9 +95,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void MakeArrow()
     {
-        Vector2 temp = new Vector2(animator.GetFloat("MoveX"), animator.GetFloat("MoveY"));
-        Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
-        arrow.Setup(temp, ChooseArrowDirection());
+        if (playerInventory.currentMagic >0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("MoveX"), animator.GetFloat("MoveY"));
+            Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+            arrow.Setup(temp, ChooseArrowDirection());
+            reduceMagic.Raise();
+        }
     }
     Vector3 ChooseArrowDirection()
     {
