@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public Signal playerHit;
+    public GameObject projectile;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+        } else if(Input.GetButtonDown("SecondWeapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        {
+            StartCoroutine(SecondAttackCo());
         }
     }
 
@@ -70,6 +74,28 @@ public class PlayerMovement : MonoBehaviour
             currentState = PlayerState.walk;
         }
 
+    }
+
+
+    private IEnumerator SecondAttackCo()
+    {
+        //animator.SetBool("Attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeArrow();
+        //animator.SetBool("Attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
+    private void MakeArrow()
+    {
+        Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+        arrow.Setup(Vector2.left, Vector3.zero);
     }
 
     public void RaiseItem()
