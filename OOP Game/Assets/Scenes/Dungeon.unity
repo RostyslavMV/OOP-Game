@@ -9037,6 +9037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Transfer
       objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9140,6 +9145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room Transfer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
@@ -9614,6 +9624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room Transfer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
@@ -10540,7 +10555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1795520848
 Transform:
   m_ObjectHideFlags: 0
