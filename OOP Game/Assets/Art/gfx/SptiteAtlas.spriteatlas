@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 593e21572a06d5b47a9b4529ed8b4d68, type: 3}
-    totalSpriteSurfaceArea: 581877
+    totalSpriteSurfaceArea: 581365
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1426,7 +1426,6 @@ SpriteAtlas:
   - {fileID: 6469460937200175538, guid: 763e4c19ec5dfc44296d32f986e65b06, type: 3}
   - {fileID: 2924928888349640390, guid: 763e4c19ec5dfc44296d32f986e65b06, type: 3}
   - {fileID: 21300000, guid: 1a40fad987d3f26439eb7515a568d4c0, type: 3}
-  - {fileID: 21300000, guid: 50ab512a62f7b2140962fc2ec7a6d727, type: 3}
   - {fileID: -872947984015748712, guid: c9a94e9cf70dfe0439e660b6397d7d0c, type: 3}
   - {fileID: 4004008643541842471, guid: c9a94e9cf70dfe0439e660b6397d7d0c, type: 3}
   - {fileID: 6703265110210787806, guid: c9a94e9cf70dfe0439e660b6397d7d0c, type: 3}
@@ -1785,7 +1784,6 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: e8953c3e882f9cc4caeeb9b73a5b0541, type: 3}
   - {fileID: 1036803682579554421, guid: e8953c3e882f9cc4caeeb9b73a5b0541, type: 3}
   - {fileID: 5559694988392259305, guid: e8953c3e882f9cc4caeeb9b73a5b0541, type: 3}
-  - {fileID: 21300000, guid: 6f786f4e3f1b6d34e81fa11571d4913f, type: 3}
   - {fileID: -1898101141213099369, guid: 2213e6af1c6316946ab219b7af410b43, type: 3}
   - {fileID: 7927429830950459127, guid: 2213e6af1c6316946ab219b7af410b43, type: 3}
   - {fileID: 1571176116747660993, guid: 2213e6af1c6316946ab219b7af410b43, type: 3}
@@ -3182,7 +3180,6 @@ SpriteAtlas:
   - Overworld_673
   - Overworld_129
   - bow
-  - magic bottle
   - modified gfx melee sprites_15
   - modified gfx melee sprites_14
   - modified gfx melee sprites_13
@@ -3541,7 +3538,6 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
-  - magic bar
   - orge_10
   - orge_11
   - orge_12
