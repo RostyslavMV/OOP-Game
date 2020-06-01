@@ -147,6 +147,7 @@ MonoBehaviour:
   speed: 8
   myRigidBody: {fileID: 432871446927982849}
   lifeTime: 5
+  magicCost: 1
 --- !u!114 &8961462289718661840
 MonoBehaviour:
   m_ObjectHideFlags: 0

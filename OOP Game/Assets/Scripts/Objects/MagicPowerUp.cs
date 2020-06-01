@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MagicPowerUp : Powerup
 {
+    public Inventory playerInventory;
+    public float magicValue;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class MagicPowerUp : Powerup
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            playerInventory.currentMagic += magicValue;
             powerupSignal.Raise();
             Destroy(this.gameObject);
         }

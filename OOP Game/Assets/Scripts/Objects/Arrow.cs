@@ -8,6 +8,7 @@ public class Arrow : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public float lifeTime;
     private float lifeTimeCounter;
+    public float magicCost;
     // Start is called before the first frame update
     void Start()
     {
