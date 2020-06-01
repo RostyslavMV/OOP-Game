@@ -348,8 +348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_AnchoredPosition: {x: 2.5, y: 0}
+  m_SizeDelta: {x: 5.0000153, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &59671278
 MonoBehaviour:
@@ -83579,8 +83579,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -0.0008087158, y: -0.0000076293945}
-  m_SizeDelta: {x: -0.001663208, y: 19.949657}
+  m_AnchoredPosition: {x: 0.000015258789, y: -0.000012397766}
+  m_SizeDelta: {x: -0.000030517578, y: 29.734222}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1131632320
 MonoBehaviour:
@@ -83595,7 +83595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 0.14901961}
+  m_Color: {r: 0.6132076, g: 0.6045301, b: 0.6045301, a: 0.21176471}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -84802,8 +84802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.000019073486}
-  m_SizeDelta: {x: 0, y: 19.949654}
+  m_AnchoredPosition: {x: 0.0000076293945, y: -0.000012397766}
+  m_SizeDelta: {x: 0, y: 29.734238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1480113923
 GameObject:
@@ -86218,8 +86218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.84, y: -91.18}
-  m_SizeDelta: {x: 164.26413, y: 64.417984}
+  m_AnchoredPosition: {x: 16.17, y: -100.78}
+  m_SizeDelta: {x: 187.1553, y: 59.468407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075908107
 MonoBehaviour:
@@ -87384,6 +87384,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6140313725927169279, guid: b0040de833032ac4bbda9998839f50f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140313725937134345, guid: b0040de833032ac4bbda9998839f50f1,
+        type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 48
+      objectReference: {fileID: 0}
     - target: {fileID: 6140313725937134347, guid: b0040de833032ac4bbda9998839f50f1,
         type: 3}
       propertyPath: m_Name
