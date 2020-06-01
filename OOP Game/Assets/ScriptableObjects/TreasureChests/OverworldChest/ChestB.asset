@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 573c78df653efdf44a461d06674b36b1, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: fee6b05b6983a4a408bbb21998d08da9, type: 3}
+  m_Name: ChestB
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfkeys: 194
-  coins: 3
-  maxMagic: 10
-  currentMagic: 10
+  initialValue: 0
+  RuntimeValue: 0

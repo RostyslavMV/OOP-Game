@@ -24,7 +24,10 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer receivedItemSprite;
     public Signal playerHit;
     public Signal reduceMagic;
+    
+    [Header("Projectile Stuff")]
     public GameObject projectile;
+    public Item bow;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +54,10 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(AttackCo());
         } else if(Input.GetButtonDown("SecondWeapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
-            StartCoroutine(SecondAttackCo());
+            if (playerInventory.CheckForItem(bow))
+            {
+                StartCoroutine(SecondAttackCo());
+            }
         }
     }
 

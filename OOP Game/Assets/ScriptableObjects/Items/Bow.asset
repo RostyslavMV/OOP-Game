@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 573c78df653efdf44a461d06674b36b1, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: 2870f1a942c64bf4c9a0bce6357cf874, type: 3}
+  m_Name: Bow
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfkeys: 194
-  coins: 3
-  maxMagic: 10
-  currentMagic: 10
+  itemSprite: {fileID: 21300000, guid: 1a40fad987d3f26439eb7515a568d4c0, type: 3}
+  itemDescription: It's a bow! Let's go shoot someone!
+  isKey: 0
