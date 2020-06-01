@@ -9037,6 +9037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room Transfer
       objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9140,6 +9145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room Transfer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
@@ -9614,6 +9624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room Transfer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148245534655939462, guid: 83292ab0589ef6744a13eea66f895bd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2148245534655939483, guid: 83292ab0589ef6744a13eea66f895bd6,
         type: 3}
