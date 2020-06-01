@@ -21,6 +21,7 @@ public class MagicPowerUp : Powerup
         if (collision.gameObject.CompareTag("Player"))
         {
             powerupSignal.Raise();
+            Destroy(this.gameObject);
         }
     }
 }

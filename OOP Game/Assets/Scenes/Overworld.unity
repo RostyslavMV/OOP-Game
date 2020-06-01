@@ -83556,7 +83556,6 @@ GameObject:
   - component: {fileID: 1131632319}
   - component: {fileID: 1131632321}
   - component: {fileID: 1131632320}
-  - component: {fileID: 1131632322}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -83620,20 +83619,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131632318}
   m_CullTransparentMesh: 0
---- !u!114 &1131632322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131632318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fc646f50c77a7d4d8f19676dcec3973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  magicSlider: {fileID: 0}
-  playerInventory: {fileID: 0}
 --- !u!1001 &1136961065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86342,7 +86327,18 @@ MonoBehaviour:
   signal: {fileID: 11400000, guid: 4bc4ef71c05bdcf4da4a3f8a0333c9a9, type: 2}
   signalEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2075908108}
+        m_MethodName: DecreaseMagic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2076978220
 GameObject:
   m_ObjectHideFlags: 0
@@ -87028,6 +87024,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1758159899677170246, guid: 1dce29ab937c67d4fa3b3685c90a6e8a,
         type: 3}
+    - target: {fileID: 2565576269888765183, guid: 6931e19dcb50bc849a5fe0c831bd4407,
+        type: 3}
+      propertyPath: reduceMagic
+      value: 
+      objectReference: {fileID: 11400000, guid: 4bc4ef71c05bdcf4da4a3f8a0333c9a9,
+        type: 2}
     - target: {fileID: 2565576269953204885, guid: 6931e19dcb50bc849a5fe0c831bd4407,
         type: 3}
       propertyPath: m_Layer

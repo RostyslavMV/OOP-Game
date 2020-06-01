@@ -11,6 +11,7 @@ public class MagicHandler : MonoBehaviour
     {
         magicSlider.maxValue = playerInventory.maxMagic;
         magicSlider.value = playerInventory.maxMagic;
+        playerInventory.currentMagic = playerInventory.maxMagic;
     }
 
     public void AddMagic()
@@ -20,6 +21,7 @@ public class MagicHandler : MonoBehaviour
         {
             magicSlider.value = magicSlider.maxValue;
         }
+        playerInventory.currentMagic = magicSlider.value;
     }
     public void DecreaseMagic()
     {
@@ -28,6 +30,7 @@ public class MagicHandler : MonoBehaviour
         {
             magicSlider.value = 0;
         }
+        playerInventory.currentMagic = magicSlider.value;
     }
     // Update is called once per frame
     void Update()
