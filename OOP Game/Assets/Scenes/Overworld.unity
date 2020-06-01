@@ -86853,6 +86853,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 728530538}
+    - target: {fileID: 7977846067803976997, guid: fd51f1bd724f6bf4c8bec6bf23b782a4,
+        type: 3}
+      propertyPath: regenDelay
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977846067803976997, guid: fd51f1bd724f6bf4c8bec6bf23b782a4,
+        type: 3}
+      propertyPath: magicValue
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7977846067803976998, guid: fd51f1bd724f6bf4c8bec6bf23b782a4,
         type: 3}
       propertyPath: m_LocalPosition.x
