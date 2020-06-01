@@ -64325,7 +64325,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 0b01db0c942e69144a2bc6b99bcc28bc,
+      objectReference: {fileID: 11400000, guid: 0a8a744bbde5fe440a6c099ce40fbcb4,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3618a8263e5dd4499ca98b247e574c3, type: 3}
@@ -82202,7 +82202,7 @@ PrefabInstance:
         type: 3}
       propertyPath: thisLoot
       value: 
-      objectReference: {fileID: 11400000, guid: 0b01db0c942e69144a2bc6b99bcc28bc,
+      objectReference: {fileID: 11400000, guid: 0a8a744bbde5fe440a6c099ce40fbcb4,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3618a8263e5dd4499ca98b247e574c3, type: 3}
